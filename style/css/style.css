@@ -554,7 +554,7 @@ width: 20px;
   top:150px ;
 }
 #certificate_scroll{
-  margin-top: 2.8rem;
+  margin-top: 1.2rem;
   padding-top: 4.5rem;
   background-color: var(--color-second-primary);
 }
@@ -688,6 +688,7 @@ display: flex;
   color: var(--color-white);
 }
 
-
-
 /* ===== footer end ===== */
+@media screen and (min-width: 480px) {
+  
+}
