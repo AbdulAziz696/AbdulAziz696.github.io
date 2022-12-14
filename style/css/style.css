@@ -104,11 +104,11 @@ span{
     left: 0;
     background-color:   var(--color-second-primary);
     transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-    -webkit-transition: transform 0.25s ease-out;
-    -moz-transition: transform 0.25s ease-out;
-    -ms-transition: transform 0.25s ease-out;
-    -o-transition: transform 0.25s ease-out;
+    transition: transform 0.5s ease-out;
+    -webkit-transition: transform 0.5s ease-out;
+    -moz-transition: transform 0.5s ease-out;
+    -ms-transition: transform 0.5s ease-out;
+    -o-transition: transform 0.5s ease-out;
 }
   
   .navbar-link:hover:after {
@@ -137,13 +137,12 @@ span{
 }
   
   .logo {
-    font-size: 50px;
-    letter-spacing: 1x;
-    font-weight: bold;
-    margin-right: auto;
-    margin-left: 50px;
-    list-style-type: none;
-    cursor: pointer;
+    font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: auto;
+  margin-left: 50px;
+  list-style-type: none;
+  cursor: pointer;
   }
   
   .logo a {
@@ -214,7 +213,7 @@ top: 43%;
 }
 
 #h1_header{
-margin: 20px 0 20px;
+margin: 20px 20px 20px;
 font-size: 75px;
 }
 
@@ -300,10 +299,10 @@ img {
 }
 
 #body_profile{
-  margin-top: -0%;
-    padding-top: 7.5rem;
+  margin-top: 0%;
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
   background-color: var(--color-second-primary);
-  
  }
  .article_portofolio{
   background-color: var(--color-second-primary);
@@ -419,14 +418,14 @@ i:hover{
   display: block;
   filter: drop-shadow(0 -5mm 2mm rgb(0, 0, 0));
   -webkit-filter: drop-shadow(0 -5mm 2mm rgba(0, 0, 0, 0.444));
-  top:46px ;
+  top:5px ;
 
 }
 
 /* ===apps card==== */
 #apps_scroll{
   margin-top: 2.5rem;
-  padding-top: 3.5rem;
+  padding-top: 5.5rem;
  
 }
 #project{
@@ -491,8 +490,8 @@ width: 20px;
 }
 
 .container .card .face.face1 .content img{
-  width: 350px;
-  height: 200px; 
+  width: auto;
+  height: auto; 
 }
 
 .container .card .face.face1 .content h3{
@@ -560,7 +559,7 @@ width: 20px;
 }
 .article{
   background-color: var(--color-second-primary);
-  padding: -19px;
+  padding: -20px;
   
 }
 #text_certificate{
@@ -594,6 +593,7 @@ display: flex;
   position: relative;
   width: 300px;
   height: auto;
+  margin-bottom: 100px;
 }
 .image_certi{
   width: 100%;
@@ -647,8 +647,8 @@ display: flex;
 
 /* ======= Base ====== */
 #base_scroll{
-  margin-top: 5.5rem;
-    padding-top: 7.5rem;
+  margin-top: 1.5rem;
+    padding-top: 3.5rem;
    }
    .base{
     margin-left: 15px;
@@ -689,6 +689,49 @@ display: flex;
 }
 
 /* ===== footer end ===== */
-@media screen and (min-width: 480px) {
-  
+@media screen and (max-width: 414px) {
+  .navbar-list {
+    flex-wrap: wrap;
+  }
+ iframe{
+    width: 250px;
+  }
+  .navbar-item {
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+  }
+  .toggle {
+    display: block;
+  }
+  #body_profile{
+    margin-top: 3.3rem;
+      padding-top: 7.5rem;}
+      
+      #certificate_scroll{
+        margin-top: 6.2rem;
+        padding-top: 4.5rem;}
+        #text_certificate{
+          padding: 15px;
+        }
+        .paper2{
+          padding-top: -12rem;
+                }
+.container {
+display: block;
+margin-left: 20px;
+margin-right: 20px;
+}
+#h1_header{
+  margin: 20px 20px 20px;
+font-size: 75px;
+}
+header{
+  height: 89.2vh;
+  width: auto;}
+  #base_scroll{
+    margin-top: 4rem;
+      padding-top: 3.5rem;
+     }
 }
